@@ -1,0 +1,149 @@
+
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+@import url(http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo);
+
+	::selection{ background-color: #E13300; color: white; }
+	::moz-selection{ background-color: #E13300; color: white; }
+	::webkit-selection{ background-color: #E13300; color: white; }
+
+	body {
+		background-color: #fff;
+		margin: 0px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #4F5155;
+	}
+
+	a {
+		color: #003399;
+		background-color: transparent;
+		font-weight: normal;
+	}
+
+	h1,h2,h3,h4,h5,h6 {
+		font-family: 'Didact Gothic', sans-serif;
+		color: #0067B2;
+
+	}
+
+	h1 { 
+		font-size: 50px;
+	}
+	h2 { 
+		font-size: 20px;
+		letter-spacing:4px;
+
+	}
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	#main{
+		margin: 0px auto;
+	
+		width: 800px;
+		max-width: 800px;
+	}
+	
+	p.footer{
+		text-align: right;
+		font-size: 11px;
+		border-top: 1px solid #D0D0D0;
+		line-height: 32px;
+		padding: 0 10px 0 10px;
+		margin: 0px 0 0 0;
+	}
+	
+	#container{
+	
+	}
+	.box {
+		float: left;
+		width: 380px;
+		height: 406px;
+		box-shadow: 0px 1px 4px #aaaaaa;
+	    -moz-box-shadow: 0 1px 4px #aaaaaa;
+	    -webkit-box-shadow: 0 1px 4px #aaaaaa;
+	}
+	.left {
+		background:#00ADEF;
+		border-radius: 0 0 0 80px;
+	}
+
+	.right {
+		background:#D93B90;
+		margin: 0 0 0 40px;
+		border-radius: 0 0 80px 0;
+
+	}
+	 a:hover .right{
+		background:#DB4395;
+		background-image:url(../images/mo.png);
+		background-repeat:no-repeat;
+		
+	}
+	 a:hover .left{
+		background:#0DB1F0;
+		background-image:url(../images/mo.png);
+		background-repeat:no-repeat;
+		
+	}
+	.center_container{
+		padding-top: 250px;
+		margin: 0px auto ;
+		width: 200px;
+	}
+	.center_txt{
+		padding-top: 230px;
+		margin: 0px auto ;
+		width: 800px;
+		text-align: center;
+		
+
+	}
+	.logo {
+		
+		width: 200px;
+		height: 200px ;
+		padding:29px 36px;
+		background-color: #FFF;
+		z-index: 99;
+		position: absolute;
+		border-radius:25px;
+	}
+	.link {
+		
+	}
+	.linktoets {
+		text-align: right;
+		font-size: 20px;
+		letter-spacing:5px;
+		padding: 10px 35px 0 0;
+		color: #FFF;
+
+		
+	}
+	.linktoetsr {
+		text-align: right;
+		font-size: 20px;
+		letter-spacing:5px;
+		padding: 10px 95px 0 0;
+		color:#FFF;
+
+		
+	}
+	.boxtext {
+		padding-top: 130px;
+		text-align: center;
+		width: 100%;
+		font-family: 'Didact Gothic', sans-serif;
+		font-size: 80px;
+		color: #FFF;
+		text-shadow: 0.04em 0.04em 0.10em #333;
+	}
